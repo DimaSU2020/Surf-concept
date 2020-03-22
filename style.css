@@ -1,0 +1,316 @@
+body {
+  background-image: url("img/sea.png");
+  background-repeat: no-repeat;
+  background-position: 100% 30%;
+  background-size: 600px;
+}
+.main {
+  display: flex;
+  max-width: 1340px;
+  margin: 0 auto;
+  height: 730px;
+  box-shadow: 0px 90px 60px rgba(105, 134, 140, 0.25);
+}
+.sea {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.img-sea {
+  border-radius: 7px;
+}
+.main-menu {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 30px;
+  left: 100px;
+}
+@font-face {
+  font-family: "Qwigley";
+  src: url(img/qwigley_[allfont.ru].ttf);
+}
+@font-face {
+  font-family: "Poppinsbold";
+  src: url(img/Poppinsextrabold.ttf);
+}
+@font-face {
+  font-family: "Poppinslight";
+  src: url(img/Poppinspoppins-semiboldmedium.ttf);
+}
+.logo-school {
+  font-family: Qwigley;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  margin-right: 9px;
+  color: white;
+}
+.school {
+  font-family: Poppinsbold, sans-serif;
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  margin-right: 175px;
+  color: rgb(50, 134, 99);
+}
+.menu-item {
+  font-family: Qwigley;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 27px;
+  margin-right: 46px;
+}
+.surf {
+  display: flex;
+  position: absolute;
+  top: -55px;
+  left: 800px;
+}
+.main-block {
+  display: flex;
+  position: absolute;
+  flex-flow: column;
+  top: 35px;
+  left: 120px;
+}
+.lessons {
+  font-family: Poppinsbold, sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 104.5%;
+  font-weight: normal;
+  font-size: 48px;
+  margin-right: 5px;
+  color: #3D3A48;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.catch-wave {
+  font-family: Qwigley;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  margin-top: -50px;
+}
+.dude {
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+  align-items: center;
+  background-color: rgba(42, 74, 104, 0.51);
+  backdrop-filter: blur(5px);
+  top: 140px;
+  border-radius: 100px;
+  width: 245px;
+  height: 90px;
+  margin-top: 35px;
+}
+.dude-img {
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.score {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  top: 3px;
+  left: 45px;
+  background-color: #C7FFC9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 10px;
+  margin-top: 16px;
+  font-family: Poppinslight, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 8px;
+  color: #314F47;
+  text-align: center;
+  position: absolute;
+}
+.chat {
+  margin-left: 6px;
+}
+.dude-name {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  padding-left: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.speech {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-size: 12px;
+  color: rgb(183, 229, 240);
+}
+.date-now {
+  display: inline-flex;
+  position: absolute;
+  flex-flow: row;
+  align-items: center;
+  top: 100px;
+  left: 350px;
+  width: 160px;
+  height: 40px;
+}
+.date-indicator {
+  width: 8px;
+	height: 40px;
+  background: white;
+}
+.date-country {
+  font-family: Poppinsbold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: rgb(39, 80, 90);
+  margin-left: 7px;
+}
+.date-data {
+  font-family: Poppinslight;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: rgb(41, 84, 94);
+  margin-left: 7px;
+}
+.countries {
+  display: flex;
+  position: absolute;
+  flex-flow: row;
+  top: 440px;
+  left: 100px;
+  width: 900px;
+  height: 200px;
+}
+.bali-block {
+  display: flex;
+  flex-flow: column;
+  width: 280px;
+  height: 200px;
+  margin-right: 25px;
+  border-radius: 12px;
+  background-image: url("img/bali 2.jpg");
+  background-repeat: no-repeat;
+  box-shadow: 0px 25px 35px rgba(29, 44, 63, 0.70);
+}
+.sri-lanka-block {
+  display: flex;
+  flex-flow: column;
+  width: 280px;
+  height: 200px;
+  margin-right: 25px;
+  border-radius: 12px;
+  background-image: url("img/sri lanka 2.jpg");
+  background-repeat: no-repeat;
+  box-shadow: 0px 25px 35px rgba(29, 44, 63, 0.70);
+}
+.australia-block {
+  display: flex;
+  flex-flow: column;
+  width: 280px;
+  height: 200px;
+  margin-right: 25px;
+  border-radius: 12px;
+  background-image: url("img/australia 2.jpg");
+  background-repeat: no-repeat;
+  box-shadow: 0px 25px 35px rgba(29, 44, 63, 0.70);
+}
+.img-countries {
+  border-radius: 12px;
+}
+.booking {
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(4px);
+  top: 5px;
+  border-radius: 20px;
+  width: 130px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.booking-closed {
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  background-color: #FF6363;
+  border: 1.5px solid white;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+.booking-open {
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+  background-color: #2BE654;
+  border: 1.5px solid white;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+.booking-status {
+font-family: Poppinslight;
+font-style: normal;
+font-weight: 100;
+font-size: 11px;
+text-align: center;
+text-transform: capitalize;
+color: #18352E;
+}
+.country {
+  font-family: Qwigley;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 39px;
+  line-height: 113.5%;
+  text-transform: capitalize;
+  color:  #FFFFFF;
+  padding-top: 105px;
+  padding-left: 20px;
+}
+.dates {
+  font-family: Poppinslight;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 130%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  padding-left: 20px;
+}
+.logo-figma {
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+  top: 640px;
+  left: -25px;
+}
+.img-figma {
+  margin-left: 30px;
+}
+.slogan-figma {
+  font-family: Poppinsbold;
+  font-style: normal;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 100;
+  font-size: 12px;
+  color: #30545C;
+  align-items: flex-end;
+  margin-left: 15px;
+  margin-top: 7px;
+}
