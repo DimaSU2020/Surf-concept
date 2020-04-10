@@ -13,7 +13,7 @@
   font-family: "Poppinslight";
   src: url(fonts/Poppinspoppins-semiboldmedium.ttf);
 }
-@media screen {
+@media screen and (min-width: 550px) {
 body 
 {
   background-image: url("img/sea.png");
@@ -21,12 +21,12 @@ body
   background-position: 100% 30%;
   background-size: 600px;
 }
-.main 
+.main
 {
   display: flex;
   flex-direction: row;
-  max-width: 1340px;
-  max-height: 700px;
+  width: 1340px;
+  height: 700px;
   margin: 0 auto;   
 }
 .main-content 
@@ -45,8 +45,7 @@ body
   border-radius: 7px;
   box-shadow: 0 60px 60px rgba(17, 69, 80, 0.45);
 }
-.main-menu 
-{
+.main-menu {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -54,8 +53,7 @@ body
   margin-left: 50px;
   height: 40px;
 }
-.logo-school 
-{
+.logo-school {
   font-family: Qwigley, sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -74,13 +72,14 @@ body
   margin-right: 175px;
   color: rgb(37, 100, 74);
 }
-.menu-item 
-{
+.menu-item li {
+  display: inline;
   font-family: Qwigley;
   font-style: normal;
   font-weight: 100;
   font-size: 27px;
   margin-right: 46px;
+  list-style-type: none;
 }
 .main-block 
 {
@@ -105,9 +104,9 @@ body
 .catch-wave 
 {
   font-family: Qwigley;
-  font-style: normal;
+  text-transform: none;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 24px;
 }
 .dude 
 {
@@ -349,3 +348,238 @@ body
   top: -14px;
 }
 }
+@media screen and (max-width: 550px) {
+  .body {
+    display: flex;
+    min-width: 550px;
+    height: 725px;
+    margin: 0px auto;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 550px;
+    height: 725px;
+    background-image:  url("img/sea_surf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 35%;
+    margin: 0 auto;
+  }
+  .main-menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+    padding-left: 15px;
+  }
+  .logo-school li {
+    display: inline;
+    font-family: Qwigley, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 40px;
+    list-style-type: none;
+    padding-right: 5px;
+    color: white;
+  }
+  .logo-school li:nth-child(2) {
+    font-family: Poppinsbold, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(37, 100, 74);
+  }
+  .menu-nav {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    width: 66px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 50px;
+    margin-left: 210px;
+    margin-top: 15px;
+    background-color: #366E7A;
+  }
+  .nav-indicator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 33px;
+    height: 4px;
+    margin-top: 13px;
+    background-color: white;
+  }
+  .nav-indicator:nth-child(2) {
+    margin-top: 0px;
+    margin-bottom: 13px;
+  }
+  .lessons {
+    margin-top: -70px;
+  }
+  .lessons li {
+    display: flex;
+    align-items: center;
+    font-family: Poppinsbold, sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 115%;
+    padding-left: 70px;
+    list-style-type: none;
+    color: #3D3A48;
+    text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.30);
+  }
+  .lessons li:nth-child(3) {
+    font-family: Qwigley;
+    text-transform: none;
+    font-weight: 100;
+    font-size: 24px;
+    text-shadow: none;
+  }
+  .dude {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 270px;
+    height: 100px;
+    border-radius: 140px;
+    margin-top: -65px;
+    margin-left: 100px;
+    background-color: rgba(42, 74, 104, 0.58);
+    backdrop-filter: blur(5px);
+  }
+  .dude-img {
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 15px;
+  }
+  .score {
+    position: absolute;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    top: 17px;
+    left: 70px;
+    background-color: #C7FFC9;
+    border: 1px solid white;
+  }
+  .score-data {
+    font-family: Poppinslight, sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    color: #314F47;
+    text-align: center;
+  }
+  .chat {
+    margin-left: 6px;
+  }
+  .dude-name {
+    font-family: Poppinslight, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding-left: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  .speech {
+    font-family: Poppinslight, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 11px;
+    color: rgb(183, 229, 240);
+    padding-right: 3px;
+    padding-bottom: 3px;
+  }
+  .countries {
+    display: flex;
+    z-index: 1;
+    width: 900px;
+    height: 200px;
+    margin-bottom: 55px;
+  }
+  .bali-block {
+    display: flex;
+    flex-flow: column;
+    width: 310px;
+    height: 180px;
+    border-radius: 12px;
+    margin-left: 80px;
+    background-image: url("img/bali_2.jpg");
+    background-repeat: no-repeat;
+  }
+  .booking {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.486);
+    backdrop-filter: blur(4px);
+    top: 5px;
+    border-radius: 20px;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .booking-light-closed {
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: #FF6363;
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-right: 8px;
+  }
+  .booking-status {
+    font-family: Poppinslight;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 11px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #18352E;
+  }
+  .country {
+    font-family: Qwigley;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 39px;
+    text-transform: capitalize;
+    color:  #FFFFFF;
+    margin-top: 60px;
+    padding-left: 20px;
+  }
+  .dates {
+    font-family: Poppinslight;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-left: 20px;
+    margin-top: -15px;
+  }
+  .surf {
+    display: flex;
+    position: absolute;
+    filter: brightness(2.8) saturate(60%);
+    left: 200px;
+    top: -100px;
+    border: 1px solid red;
+  }
+.logo-figma {
+  display: none;
+}
+.img-figma {
+  display: none;
+}
+.slogan-figma {
+  display: none;
+ 
+}
+  }
