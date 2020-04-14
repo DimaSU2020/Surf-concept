@@ -569,7 +569,7 @@ display: none;
 .surf2 {
   display: flex;
   position: absolute;
-  filter: brightness(2.8) saturate(60%);
+  filter: brightness(2.8) saturate(75%);
   left: 200px;
   top: -100px;
   z-index: 0;
