@@ -339,14 +339,15 @@ body {
   background-image:  url("img/sea_surf.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 25% 35%;
+  background-position: 10% 0%;
   margin: 0 auto;
 }
 .main-menu {
   display: flex;
   flex-direction: row;
+  position: relative;
   z-index: 1;
-  margin-top: 17px;
+  margin-top: 15px;
   padding-left: 15px;
 }
 .logo-school li {
@@ -365,14 +366,6 @@ body {
   font-weight: 900;
   font-size: 20px;
   color: rgb(37, 100, 74);
-}
-.surf2 {
-  display: flex;
-  position: absolute;
-  filter: brightness(2.8) saturate(60%);
-  left: 200px;
-  top: -100px;
-  z-index: 0;
 }
 .menu-nav {
   display: none;
@@ -405,7 +398,7 @@ body {
   margin-bottom: 13px;
 }
 .lessons {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .lessons li {
   display: flex;
@@ -418,7 +411,7 @@ body {
   padding-left: 70px;
   list-style-type: none;
   color: #3D3A48;
-  text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.30);
+  text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.40);
 }
 .lessons li:nth-child(3) {
   font-family: Qwigley;
@@ -450,7 +443,7 @@ body {
   width: 12px;
   height: 12px;
   top: 17px;
-  left: 70px;
+  left: 60px;
   background-color: #C7FFC9;
   border: 1px solid white;
 }
@@ -529,7 +522,7 @@ display: none;
   border-radius: 20px;
   width: 130px;
   height: 30px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 20px;
 }
 .booking-light-closed {
@@ -572,6 +565,14 @@ display: none;
 }
 .surf {
   display: none;
+}
+.surf2 {
+  display: flex;
+  position: absolute;
+  filter: brightness(2.8) saturate(60%);
+  left: 200px;
+  top: -100px;
+  z-index: 0;
 }
 .logo-figma {
   display: none;
