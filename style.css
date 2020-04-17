@@ -257,13 +257,13 @@ body {
   margin-right: 8px;
 }
 .booking-light-open {
-  background-color: #2BE654;
   border-radius: 50%;
   width: 6px;
   height: 6px;
   border: 1px solid white;
   margin-left: 10px;
   margin-right: 8px;
+  background-color: #2BE654;
 }
 .booking-status {
   font-family: Poppinslight;
@@ -280,9 +280,9 @@ body {
   font-weight: 900;
   font-size: 39px;
   text-transform: capitalize;
-  color:  #FFFFFF;
   margin-top: 60px;
   padding-left: 20px;
+  color:  #FFFFFF;
 }
 .dates {
   font-family: Poppinslight;
@@ -290,9 +290,9 @@ body {
   font-weight: 100;
   font-size: 16px;
   text-transform: capitalize;
-  color: #FFFFFF;
   padding-left: 20px;
   margin-top: -15px;
+  color: #FFFFFF;
 }
 .logo-figma {
   display: flex;
