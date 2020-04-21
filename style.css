@@ -1,15 +1,12 @@
-@font-face 
-{
+@font-face {
   font-family: "Qwigley";
   src: url(fonts/qwigley.ttf);
 }
-@font-face 
-{
+@font-face {
   font-family: "Poppinsbold";
   src: url(fonts/Poppinsextrabold.ttf);
 }
-@font-face 
-{
+@font-face {
   font-family: "Poppinslight";
   src: url(fonts/Poppinspoppins-semiboldmedium.ttf);
 }
@@ -109,17 +106,17 @@ body {
   display: flex;
   flex-flow: row;
   align-items: center;
-  background-color: rgba(42, 74, 104, 0.51);
-  backdrop-filter: blur(5px);
   border-radius: 100px;
   width: 245px;
   height: 90px;
   margin-top: 16px;
+  background-color: rgba(42, 74, 104, 0.51);
+  backdrop-filter: blur(5px);
 }
 .dude-img {
   border-radius: 50%;
-  border: 2px solid white;
   margin-left: 10px;
+  border: 2px solid white;
 }
 .score {
   position: absolute;
@@ -135,30 +132,30 @@ body {
   font-family: Poppinslight, sans-serif;
   font-style: normal;
   font-size: 9px;
-  color: #314F47;
   text-align: center;
+  color: #314F47;
 }
 .chat {
-  margin-left: 6px;
+  list-style-type: none;
+  padding: 7px;
 }
 .dude-name {
+  justify-content: flex-start;
   font-family: Poppinslight, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   color: rgb(255, 255, 255);
-  padding-left: 4px;
-  padding-top: 3px;
-  padding-bottom: 3px;
 }
 .speech {
+  justify-content: flex-start;
   font-family: Poppinslight, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-transform: capitalize;
-  font-size: 10px;
-  color: rgb(183, 229, 240);
+  font-size: 11px;
   padding-bottom: 3px;
+  color: rgb(183, 229, 240);
 }
 .date-now {
   display: inline-flex;
@@ -177,20 +174,22 @@ body {
 .date-country {
   font-family: Poppinsbold;
   font-style: normal;
+  list-style-type: none;
   font-weight: 600;
   font-size: 18px;
   text-transform: capitalize;
+  margin-left: -30px;
   color: rgb(39, 80, 90);
-  margin-left: 7px;
 }
 .date-data {
   font-family: Poppinslight;
   font-style: normal;
+  list-style-type: none;
   font-weight: 100;
   font-size: 16px;
+  margin-left: -30px;
   text-transform: capitalize;
   color: rgb(41, 84, 94);
-  margin-left: 7px;
 }
 .countries {
   display: flex;
@@ -238,32 +237,32 @@ body {
   display: flex;
   flex-flow: row;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.486);
-  backdrop-filter: blur(4px);
   top: 5px;
   border-radius: 20px;
   width: 130px;
   height: 30px;
   margin-top: 10px;
   margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.486);
+  backdrop-filter: blur(4px);
 }
 .booking-light-closed {
   border-radius: 50%;
   width: 6px;
   height: 6px;
-  background-color: #FF6363;
-  border: 1px solid white;
   margin-left: 10px;
   margin-right: 8px;
+  background-color: #FF6363;
+  border: 1px solid white;
 }
 .booking-light-open {
   border-radius: 50%;
   width: 6px;
   height: 6px;
-  border: 1px solid white;
   margin-left: 10px;
   margin-right: 8px;
   background-color: #2BE654;
+  border: 1px solid white;
 }
 .booking-status {
   font-family: Poppinslight;
@@ -274,23 +273,22 @@ body {
   text-transform: capitalize;
   color: #18352E;
 }
-.country {
+.country li {
   font-family: Qwigley;
   font-style: italic;
   font-weight: 900;
   font-size: 39px;
   text-transform: capitalize;
+  list-style-type: none;
   margin-top: 60px;
-  padding-left: 20px;
   color:  #FFFFFF;
 }
-.dates {
+.country li:nth-child(2) {
   font-family: Poppinslight;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
   text-transform: capitalize;
-  padding-left: 20px;
   margin-top: -15px;
   color: #FFFFFF;
 }
@@ -307,17 +305,17 @@ body {
   font-style: normal;
   text-transform: capitalize;
   text-align: center;
+  list-style-type: none;
   font-weight: 100;
   font-size: 12px;
-  color: #30545C;
   align-items: flex-end;
-  margin-left: 15px;
   margin-top: 20px;
+  color: #30545C;
 }
 .surf {
   position: relative;
   left: -250px;
-  top: -14px;
+  top: 0px;
 }
 .surf2 {
   display: none;
@@ -434,8 +432,8 @@ body {
 }
 .dude-img {
   border-radius: 50%;
-  border: 2px solid white;
   margin-left: 15px;
+  border: 2px solid white;
 }
 .score {
   position: absolute;
@@ -451,21 +449,22 @@ body {
   font-family: Poppinslight, sans-serif;
   font-style: normal;
   font-size: 10px;
-  color: #314F47;
   text-align: center;
+  color: #314F47;
 }
 .chat {
-  margin-left: 6px;
+  list-style-type: none;
+  padding: 7px;
 }
 .dude-name {
   font-family: Poppinslight, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  color: rgb(255, 255, 255);
   padding-left: 4px;
   padding-top: 3px;
   padding-bottom: 3px;
+  color: rgb(255, 255, 255);
 }
 .speech {
   font-family: Poppinslight, sans-serif;
@@ -473,9 +472,9 @@ body {
   font-weight: normal;
   text-transform: capitalize;
   font-size: 11px;
-  color: rgb(183, 229, 240);
   padding-right: 3px;
   padding-bottom: 3px;
+  color: rgb(183, 229, 240);
 }
 .date-now {
 display: none;
@@ -504,35 +503,35 @@ display: none;
 .bali-block {
   display: flex;
   flex-flow: column;
+  background-image: url("img/bali_2.jpg");
+  background-repeat: no-repeat;
   width: 310px;
   height: 180px;
   border-radius: 12px;
   margin-left: 80px;
   z-index: 1;
-  background-image: url("img/bali_2.jpg");
-  background-repeat: no-repeat;
 }
 .booking {
   display: flex;
   flex-flow: row;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.486);
-  backdrop-filter: blur(4px);
   top: 5px;
   border-radius: 20px;
   width: 130px;
   height: 30px;
   margin-top: 20px;
   margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.486);
+  backdrop-filter: blur(4px);
 }
 .booking-light-closed {
   border-radius: 50%;
   width: 6px;
   height: 6px;
-  background-color: #FF6363;
-  border: 1px solid white;
   margin-left: 10px;
   margin-right: 8px;
+  background-color: #FF6363;
+  border: 1px solid white;
 }
 .booking-status {
   font-family: Poppinslight;
@@ -543,25 +542,24 @@ display: none;
   text-transform: capitalize;
   color: #18352E;
 }
-.country {
+.country li {
   font-family: Qwigley;
   font-style: italic;
+  list-style-type: none;
   font-weight: 900;
   font-size: 39px;
   text-transform: capitalize;
+  margin-top: 30px;
   color:  #FFFFFF;
-  margin-top: 60px;
-  padding-left: 20px;
 }
-.dates {
+.country li:nth-child(2) {
   font-family: Poppinslight;
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
   text-transform: capitalize;
-  color: #FFFFFF;
-  padding-left: 20px;
   margin-top: -15px;
+  color: #FFFFFF;
 }
 .surf {
   display: none;
@@ -569,10 +567,10 @@ display: none;
 .surf2 {
   display: flex;
   position: absolute;
-  filter: brightness(2.8) saturate(75%);
   left: 200px;
   top: -100px;
   z-index: 0;
+  filter: brightness(2.8) saturate(75%);
 }
 .logo-figma {
   display: none;
